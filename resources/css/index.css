@@ -1,0 +1,135 @@
+body {
+    font-family: 'Montserrat',
+    sans-serif;
+}
+.div-container {
+    margin: 0px 75px;
+}
+.brand-name-line {
+    width: 27px;
+    height: 9px;
+    border-radius: 5px;
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+}
+.brand-name {
+    font-weight: 600;
+    font-size: 23px;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #292B2E;
+}
+
+.page-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252B42;
+    margin-top: 24px;
+}
+.page-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;  
+    color: #858585;
+}
+
+.accordion-button {
+    font-weight: 700;
+    line-height: 24px;    
+    letter-spacing: 0.1px;    
+    color: #737373 !important;
+}
+
+
+
+
+
+.carousel-inner {
+    width: 93% !important;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.carousel-control-next,
+.carousel-control-prev {
+    width: 2% !important;
+    opacity: 1 !important;
+    background: #F6F8FA !important;
+    border-radius: 15px;
+}
+
+
+
+.card {
+    border: 0 !important;
+    width: 100%;
+}
+.card img {
+    height: 500px !important;
+    width: 100%;
+    object-fit: cover;
+    -webkit-transition: 0.2s all;   
+}
+.card img:hover {
+    -webkit-filter: brightness(50%);
+}
+.card-body {
+    padding: 1.3rem 1.3rem !important;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #292B2E;
+    margin: 0 !important;
+}
+.card-text {
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #292B2E;
+    padding-top: 4px;
+}
+
+.reporter-detail {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: #586069;
+}
+.reporter-name {
+    margin: 0;
+    font-size: 13px;
+    line-height: 28px;
+}
+.reporter-detail div {
+    width: 5px;
+    height: 5px;
+    background: #586069;
+    border-radius: 3px;
+    margin: 0px 12px;
+}
+.report-date {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/* Medium screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+    .div-container {
+        margin: 0px 25px;
+    }
+    .card img {
+        height: 300px !important;
+    }
+}
+/* Medium screen devices (595px and 911px) */
+
+@media only screen and (min-width: 595px) and (max-width: 911px) {
+    .div-container {
+        margin: 0px 45px;
+    }
+}
